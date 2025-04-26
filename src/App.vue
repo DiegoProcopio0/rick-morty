@@ -16,7 +16,7 @@ const name = ref('')
 const status = ref<(typeof statusOptions.value)[0]>({ name: '', code: '' })
 const page = ref(1)
 const loading = ref(false)
-const modal = ref(true)
+const modal = ref(false)
 const person = ref<(typeof store.persons)[0]>()
 
 const showSuccess = () => {

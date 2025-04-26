@@ -133,7 +133,7 @@ onMounted(async () => {
       <Skeleton v-if="loading" width="100%" height="150px" />
 
       <Dialog v-model:visible="modal" modal :header="person?.name">
-        <div class="flex flex-col lg:flex-row min-w-[600px]">
+        <div class="flex flex-col lg:flex-row md:min-w-[600px] min-w-80">
           <img
             :src="person?.image"
             alt="personagem"
